@@ -1,0 +1,11 @@
+#video_wrapper {
+    margin: 10px;
+}
+
+#player {
+    width: calc(100% - 20px);
+}
+
+hgroup {
+    margin-left: 25px;
+}

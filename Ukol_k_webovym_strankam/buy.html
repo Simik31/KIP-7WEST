@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/index.css" type="text/css">
+		<title>Úkol k webovým stránkám</title>
+	</head>
+	<body>
+		<div id="main_wrapper">
+			<div id="header">
+				<div>
+					<img src="img/logo.png" alt="logo" />
+				</div>
+				<div>
+					<h1>
+						THE EXPERIENCE AGENCY
+					</h1>
+				</div>
+			</div>
+			<div id="left_column">
+				<div id="basket">
+					<div id="e">js_placeholder_experience</div>
+					<div id="persons">js_placeholder_persons</div>
+					<div id="duration">js_placeholder_duration</div>
+					<div id="price">js_placeholder_price</div>
+					<br>
+					<form action="send_order.html" method="post">
+						<label>Váše jméno a příjmení:<br></label><input type="text" name="name_surname" required><br><br>
+						<label>Váš email:<br></label><input type="email" name="_replyto" required><br><br>
+						<label>Vaše tel. číslo:<br></label><input type="tel" name="phone" required><br><br>
+						<input type="hidden" name="experience" id="js_insert_experience">
+						<input type="hidden" name="count" id="js_insert_count">
+						<input type="hidden" name="duration" id="js_insert_duration">
+						<input type="hidden" name="price" id="js_insert_price">
+						<input type="submit">
+					</form>
+				</div>
+			</div>
+			<div id="right_column">
+				<nav>
+					<header>
+						<a href="index.html"><div>Domů</div></a>
+						<br>
+						<a href="gallery.html"><div>Galerie</div></a>
+					</header>
+					<br>
+					<div>Seznam zážitků</div>
+					<a href="experiences/vr.html"><div>Virtuální realita</div></a>
+					<a href="experiences/balloon.html"><div>Let balónem</div></a>
+					<a href="experiences/parachute.html"><div>Seskok padákem</div></a>
+					<a href="experiences/car.html"><div>Řidič sportovního auta</div></a>
+					<a href="experiences/programming.html"><div>Kurz programování</div></a>
+					<a href="experiences/chernobyl.html"><div>Zájezd do Černobylu</div></a>
+					<br>
+					<footer>
+						<a href="contacts.html"><div>Kontakt</div></a>
+					</footer>
+				</nav>
+			</div>
+		</div>
+		<script src="js/buy.js"></script>
+	</body>
+</html>

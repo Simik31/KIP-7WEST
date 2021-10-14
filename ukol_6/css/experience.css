@@ -1,0 +1,48 @@
+#experience_wrapper {
+	width: calc(100% - 10px);
+	margin: 5px;
+}
+
+#experience_header {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#experience_photo {
+	width: 57%;
+	float: left;
+}
+
+#experience_photo img{
+	width: 100%;
+}
+
+#experience_buy {
+	text-align: center;
+}
+
+#experience_buy a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 2px 5px;
+	background-color: #666;
+	border: 2px solid black;
+}
+
+#experience_buy a:hover {
+	color: black;
+	background-color: white;
+}
+
+#experience_content {
+	width: 40%;
+	float: right;
+}
+
+#experience_description {
+	clear: both;
+	width: 100%;
+}

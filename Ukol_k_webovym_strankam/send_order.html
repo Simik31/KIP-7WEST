@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Úkol k webovým stránkám</title>
+    </head>
+    <body>
+        <p>Sending your order</p>
+        <script>
+            if(Math.random() < 0.85) window.location.replace("buy.html?order=send&confirm=ok");
+            else window.location.replace("buy.html?order=send&confirm=error");
+        </script>
+    </body>
+</html>

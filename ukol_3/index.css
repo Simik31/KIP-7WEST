@@ -1,0 +1,63 @@
+body {
+	margin: 0;
+}
+
+.block {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+#b1 {
+	top: 20px;
+	left: 60px;
+}
+
+#b2 {
+	top: 100px;
+	left: 40px;
+}
+
+#b3 {
+	top: 60px;
+	left: 100px;
+}
+
+#b4 {
+	top: 20px;
+	left: 360px;
+}
+
+#b5 {
+	top: 100px;
+	left: 340px;
+}
+
+#b6 {
+	top: 60px;
+	left: 400px;
+}
+
+.bottom {
+	z-index: 1;
+}
+
+.middle {
+	z-index: 2;
+}
+
+.top {
+	z-index: 3;
+}

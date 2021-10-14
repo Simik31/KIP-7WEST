@@ -1,0 +1,23 @@
+#galerie_main {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	width: 100%;
+	margin-bottom: 6%;
+	border: solid 2px black;
+}
+
+#galerie_left {
+	margin-left: 8%;
+	width: 40%;
+	float: left;
+}
+
+#galerie_right {
+	margin-right: 8%;
+	width: 40%;
+	float: right;
+}

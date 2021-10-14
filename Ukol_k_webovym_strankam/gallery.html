@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/index.css" type="text/css">
+		<link rel="stylesheet" href="css/gallery.css" type="text/css">
+		<title>Úkol k webovým stránkám</title>
+	</head>
+	<body>
+		<div id="main_wrapper">
+			<div id="header">
+				<div>
+					<img src="img/logo.png" alt="logo" />
+				</div>
+				<div>
+					<h1>
+						THE EXPERIENCE AGENCY
+					</h1>
+				</div>
+			</div>
+			<div id="left_column">
+				<div id="gallery">
+					<div id="gallery_main">
+                        <img class="image" src="img/vr.jpg" alt="vr">
+                        <img class="image" src="img/balloon.jpg" alt="balloon">
+                        <img class="image" src="img/car.jpg" alt="car">
+                        <img class="image" src="img/chernobyl.jpg" alt="chernobyl">
+						<img class="image" src="img/parachute.jpg" alt="parachute">
+						<img class="image" src="img/programming.jpg" alt="programming">
+                    </div>
+                    <div id="gallery_small">
+                        <figure>
+                            <img class="small_display" src="img/vr.jpg" alt="vr" onClick="showImg(1)" />
+                            <figcaption>Virtulní realita</figcaption>
+                        </figure>
+						<figure>
+                            <img class="small_display" src="img/balloon.jpg" alt="balloon" onClick="showImg(2)" />
+                            <figcaption>Let balónem</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="small_display" src="img/car.jpg" alt="car" onClick="showImg(3)" />
+                            <figcaption>Řidič sportovního auta</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="small_display" src="img/chernobyl.jpg" alt="chernobyl" onClick="showImg(4)" />
+                            <figcaption>Černobyl</figcaption>
+                        </figure>
+						<figure>
+							<img class="small_display" src="img/parachute.jpg" alt="parachute" onClick="showImg(5)" />
+							<figcaption>Seskok padákem</figcaption>
+						</figure>
+						<figure>
+							<img class="small_display" src="img/programming.jpg" alt="programming" onClick="showImg(6)" />
+							<figcaption>Kurz programování</figcaption>
+						</figure>
+                    </div>
+                </div>
+			</div>
+			<div id="right_column">
+				<nav>
+					<header>
+						<a href="index.html"><div>Domů</div></a>
+					</header>
+					<br>
+					<div>Seznam zážitků</div>
+					<a href="experiences/vr.html"><div>Virtuální realita</div></a>
+					<a href="experiences/balloon.html"><div>Let balónem</div></a>
+					<a href="experiences/parachute.html"><div>Seskok padákem</div></a>
+					<a href="experiences/car.html"><div>Řidič sportovního auta</div></a>
+					<a href="experiences/programming.html"><div>Kurz programování</div></a>
+					<a href="experiences/chernobyl.html"><div>Zájezd do Černobylu</div></a>
+					<br>
+					<footer>
+						<a href="contacts.html"><div>Kontakt</div></a>
+					</footer>
+				</nav>
+			</div>
+		</div>
+        <script src="js/gallery.js"></script>
+	</body>
+</html>

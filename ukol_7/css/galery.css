@@ -1,0 +1,28 @@
+#galery_main {
+	margin: 10px;
+}
+
+.image {
+    display: none;
+    width: 100%;
+}
+
+#galery_small {
+    text-align: center;
+    margin: 10px;
+}
+
+figure {
+    margin: 0 !important;
+    display: inline-block;
+}
+
+.small_display {
+    height: 103px !important;
+    cursor: pointer;
+}
+
+.hide {
+    opacity: 0.2;
+    cursor: auto;
+}

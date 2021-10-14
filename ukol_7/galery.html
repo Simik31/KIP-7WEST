@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/index.css" type="text/css">
+		<link rel="stylesheet" href="css/galery.css" type="text/css">
+		<title>Úkol 7</title>
+	</head>
+	<body>
+		<div id="main_wrapper">
+			<div id="header">
+				<div>
+					<img src="img/logo.png" alt="logo" />
+				</div>
+				<div>
+					<h1>
+						THE EXPERIENCE AGENCY
+					</h1>
+				</div>
+			</div>
+			<div id="left_column">
+				<div id="galery">
+					<div id="galery_main">
+                        <img class="image" src="img/balloon.jpg" alt="balloon">
+                        <img class="image" src="img/car.jpg" alt="car">
+                        <img class="image" src="img/chernobyl.jpg" alt="chernobyl">
+                        <img class="image" src="img/parachute.jpg" alt="parachute">
+                    </div>
+                    <div id="galery_small">
+                        <figure>
+                            <img class="small_display" src="img/balloon.jpg" alt="balloon" onClick="showImg(1)" />
+                            <figcaption>Let balónem</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="small_display" src="img/car.jpg" alt="car" onClick="showImg(2)" />
+                            <figcaption>Řidič sportovního auta</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="small_display" src="img/chernobyl.jpg" alt="chernobyl" onClick="showImg(3)" />
+                            <figcaption>Černobyl</figcaption>
+                        </figure>
+                        <figure>
+                            <img class="small_display" src="img/parachute.jpg" alt="parachute" onClick="showImg(4)" />
+                            <figcaption>Seskok padákem</figcaption>
+                        </figure>
+                    </div>
+                </div>
+			</div>
+			<div id="right_column">
+				<nav>
+					<a href="index.html"><div>Domů</div></a>
+					<br>
+					<div>Seznam zážitků</div>
+					<a href="experiences/balloon.html"><div>Let balónem</div></a>
+					<a href="experiences/parachute.html"><div>Seskok padákem</div></a>
+					<a href="experiences/car.html"><div>Řidič sportovního auta</div></a>
+					<a href="experiences/chernobyl.html"><div>Zájezd do Černobylu</div></a>
+					<br>
+					<a href="contacts.html"><div>Kontakt</div></a>
+				</nav>
+			</div>
+		</div>
+        <script src="js/galery.js"></script>
+	</body>
+</html>
